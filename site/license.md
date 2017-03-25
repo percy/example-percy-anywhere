@@ -1,4 +1,4 @@
-Everything in this repo is MIT License unless otherwise specified.
+Everything from TodoMVC in this folder is MIT License unless otherwise specified.
 
 Copyright (c) Addy Osmani, Sindre Sorhus, Pascal Hartig, Stephen Sawchuk.
 

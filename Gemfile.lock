@@ -21,9 +21,9 @@ GEM
     multipart-post (2.0.0)
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
-    percy-capybara (2.4.3)
-      percy-client (~> 1.9)
-    percy-client (1.9.2)
+    percy-capybara (2.5.0)
+      percy-client (~> 1.10)
+    percy-client (1.10.0)
       addressable
       faraday (>= 0.9)
       httpclient (>= 2.6)
@@ -45,10 +45,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  capybara
   percy-capybara
   poltergeist
-  rack
 
 BUNDLED WITH
    1.14.4
