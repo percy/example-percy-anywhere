@@ -2,6 +2,14 @@
 require 'percy/capybara/anywhere'
 ENV['PERCY_DEBUG'] = '1'  # Enable debugging output.
 
+unless ENV['PERCY_PROJECT'] && ENV['PERCY_TOKEN']
+  puts
+  puts \
+    'Whoops! It looks like you need to setup the PERCY_PROJECT and PERCY_TOKEN ' \
+    'environment variables.'
+  exit -1
+end
+
 # Start a local example app server that serves a simple static site.
 # This is just to keep this example easy to run, usually you would run your own app server.
 pid = fork { require './site/serve.rb' }
