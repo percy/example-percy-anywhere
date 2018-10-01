@@ -6,7 +6,6 @@ An example of [Percy](https://percy.io) visual regression tests, using [Percy An
 
 ```bash
 $ export PERCY_TOKEN=...
-$ export PERCY_PROJECT=...
 
 $ gem install bundler
 $ bundle install
